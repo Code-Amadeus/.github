@@ -62,16 +62,15 @@ allowing presentation to become authority.
 | Project | Role | Current status |
 |---|---|---|
 | [**Amadeus**](https://github.com/Code-Amadeus/Amadeus) | Desktop companion runtime: Chat, Work, voice, character presentation, artifacts, Providers, and AUIP sessions. | Public **Source Alpha**; buildable source, not a packaged desktop release. |
-| [**AUIP**](https://github.com/Code-Amadeus/auip) | Cooperative application-session and typed-action protocol. | Public protocol home; standalone SDK and conformance suite are not yet released. |
-| [**Amadeus SpriteForge**](https://github.com/Code-Amadeus/amadeus-spriteforge) | Rendering and behavior toolchain for embodied character presentation. | Public project home; source release is pending audit. |
+| [**AUIP**](https://github.com/Code-Amadeus/AUIP) | Cooperative application-session and typed-action protocol. | Experimental v0 implemented in Amadeus; this protocol home documents status and links to the bundled SDK, examples, and tests. No independently versioned SDK or conformance suite release yet. |
+| [**Amadeus SpriteForge**](https://github.com/Code-Amadeus/Amadeus-SpriteForge) | Local sprite asset review, saved behavior-graph editing, and KTX2 character-pack preview/export. | Public **Source Alpha** code, version 0.1.0, under AGPL-3.0-only. Generation services and the Amadeus runtime are separate. |
 
 ## Current reality and direction
 
 > [!IMPORTANT]
 > **Direction is not delivery.** A persistent AI OS interface is the product
-> direction. Today's Amadeus release is source-available, noncommercial
-> **Source Alpha** software—not a packaged operating system or commercial
-> desktop product.
+> direction. Amadeus currently provides open-source **Source Alpha** software
+> under AGPL-3.0, without a packaged operating system or desktop installer.
 
 - The current verified reference environment is Windows with CPython 3.12 and
   Node.js 22. A CPU/model-less path is the shortest supported first run;
@@ -80,8 +79,9 @@ allowing presentation to become authority.
   domains. Sharing a registry or a screen does not silently share permissions.
 - Models interpret meaning and narrate activity. The Host owns durable facts,
   identity, permissions, execution authority, and receipts.
-- First-party Amadeus code is available for noncommercial use under the
-  [PolyForm Noncommercial License 1.0.0](https://github.com/Code-Amadeus/Amadeus/blob/main/LICENSE).
+- First-party Amadeus code is available under the
+  [GNU Affero General Public License v3.0 (AGPL-3.0)](https://github.com/Code-Amadeus/Amadeus/blob/main/LICENSE).
+  SpriteForge project code is [AGPL-3.0-only](https://github.com/Code-Amadeus/Amadeus-SpriteForge/blob/main/LICENSE).
   Third-party code, models, voices, characters, and external assets retain
   their own terms.
 
