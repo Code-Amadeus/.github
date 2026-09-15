@@ -64,6 +64,7 @@ allowing presentation to become authority.
 | [**Amadeus**](https://github.com/Code-Amadeus/Amadeus) | Desktop companion runtime: Chat, Work, voice, character presentation, artifacts, Providers, and AUIP sessions. | Public **Source Alpha**; buildable source, not a packaged desktop release. |
 | [**AUIP**](https://github.com/Code-Amadeus/AUIP) | Cooperative application-session and typed-action protocol. | Experimental v0 implemented in Amadeus; this protocol home documents status and links to the bundled SDK, examples, and tests. No independently versioned SDK or conformance suite release yet. |
 | [**Amadeus SpriteForge**](https://github.com/Code-Amadeus/Amadeus-SpriteForge) | Local sprite asset review, saved behavior-graph editing, and KTX2 character-pack preview/export. | Public **Source Alpha** code, version 0.1.0, under AGPL-3.0-only. Generation services and the Amadeus runtime are separate. |
+| [**Amadeus-Extensions**](https://github.com/Code-Amadeus/Amadeus-Extensions) | Design home for extending Amadeus with tools, workflows, applications, agents, and assets, with a focus on prompt budgets, routing, and lifecycle management. | **Exploratory**; public extension specifications, APIs, and SDKs have not yet been released. |
 
 ## Current reality and direction
 
