@@ -64,7 +64,19 @@ allowing presentation to become authority.
 | [**Amadeus**](https://github.com/Code-Amadeus/Amadeus) | Desktop companion runtime: Chat, Work, voice, character presentation, artifacts, Providers, and AUIP sessions. | Public **Source Alpha**; buildable source, not a packaged desktop release. |
 | [**AUIP**](https://github.com/Code-Amadeus/AUIP) | Cooperative application-session and typed-action protocol. | Experimental v0 implemented in Amadeus; this protocol home documents status and links to the bundled SDK, examples, and tests. No independently versioned SDK or conformance suite release yet. |
 | [**Amadeus SpriteForge**](https://github.com/Code-Amadeus/Amadeus-SpriteForge) | Local sprite asset review, saved behavior-graph editing, and KTX2 character-pack preview/export. | Public **Source Alpha** code, version 0.1.0, under AGPL-3.0-only. Generation services and the Amadeus runtime are separate. |
+| [**Amadeus-SpriteForge-Animator**](https://github.com/Code-Amadeus/Amadeus-SpriteForge-Animator) | Planned character runtime SDK and standalone player: performance rules, mouth sync, parsed script cues, and texture/resource lifecycle. | **Placeholder / design draft**; purpose and migration plan published. No installable SDK, runnable player, or stable API yet. |
 | [**Amadeus-Extensions**](https://github.com/Code-Amadeus/Amadeus-Extensions) | Design home for extending Amadeus with tools, workflows, applications, agents, and assets, with a focus on prompt budgets, routing, and lifecycle management. | **Exploratory**; public extension specifications, APIs, and SDKs have not yet been released. |
+
+SpriteForge creates and exports character assets and behavior graphs. Animator is
+planned to extract reusable performance rules, mouth presentation, rendering and
+resource management from Amadeus, so authoring previews, standalone playback and
+host applications can share one runtime. Hosts supply expression intent, audio
+playback state and presentation ownership. See the [Animator draft plan](https://github.com/Code-Amadeus/Amadeus-SpriteForge-Animator/blob/main/PLAN.md).
+
+SpriteForge 负责角色素材创作、行为图编辑与导出；Animator 计划把 Amadeus 中可复用的
+导演规则、口型与闭口、解析后的脚本演出、渲染和资源管理独立出来，让创作预览、
+独立播放器与宿主应用共享同一套运行时。宿主提供表达意图、音频播放状态与呈现权。
+目前是占位与设计草案，详见 [Animator 计划](https://github.com/Code-Amadeus/Amadeus-SpriteForge-Animator/blob/main/PLAN.md#中文计划草案)。
 
 ## Current reality and direction
 
