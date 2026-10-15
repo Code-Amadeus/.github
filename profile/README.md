@@ -59,6 +59,8 @@ allowing presentation to become authority.
 
 ## The ecosystem
 
+**Main entry point / 主要入口:** [**Amadeus**](https://github.com/Code-Amadeus/Amadeus) remains the main project and starting point for Code Amadeus. / Amadeus 主仓库仍是 Code Amadeus 的主要项目与入口。
+
 | Project | Role | Current status |
 |---|---|---|
 | [**Amadeus**](https://github.com/Code-Amadeus/Amadeus) | Desktop companion runtime: Chat, Work, voice, character presentation, artifacts, Providers, and AUIP sessions. | Public **Source Alpha**; buildable source, not a packaged desktop release. |
@@ -77,6 +79,17 @@ SpriteForge 负责角色素材创作、行为图编辑与导出；Animator 计�
 导演规则、口型与闭口、解析后的脚本演出、渲染和资源管理独立出来，让创作预览、
 独立播放器与宿主应用共享同一套运行时。宿主提供表达意图、音频播放状态与呈现权。
 目前是占位与设计草案，详见 [Animator 计划](https://github.com/Code-Amadeus/Amadeus-SpriteForge-Animator/blob/main/PLAN.md#中文计划草案)。
+
+## Community-maintained projects / 社区维护项目
+
+These community experimental projects are currently independently maintained by [@Mieluoxxx](https://github.com/Mieluoxxx). Follow each repository for its development and project-specific discussions. [Amadeus](https://github.com/Code-Amadeus/Amadeus) remains the main entry point.
+
+以下项目为**社区实验性项目**，**暂由 [@Mieluoxxx](https://github.com/Mieluoxxx) 独立维护**。项目进展与相关讨论请前往各自仓库；[Amadeus 主仓库](https://github.com/Code-Amadeus/Amadeus)仍是主要入口。
+
+| Project / 项目 | Scope / 定位 |
+|---|---|
+| [**Amadeus-Next**](https://github.com/Code-Amadeus/Amadeus-Next) | Community experimental project / 社区实验性项目 |
+| [**Amadeus-Next-Mobile**](https://github.com/Code-Amadeus/Amadeus-Next-Mobile) | Community experimental mobile project / 社区实验性移动端项目 |
 
 ## Current reality and direction
 
